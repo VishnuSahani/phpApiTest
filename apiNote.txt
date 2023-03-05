@@ -1,0 +1,34 @@
+1 = fetch data 
+
+url = http://localhost:8090/api/restApi.php
+
+requestbody = {
+    "action":"fetchAllUserData"  
+}
+
+
+
+2 - insert data 
+
+reqbody = {
+    "action":"insertData",
+    "data":{
+        "email":"vishnu2@gmail.com",
+        "name":"Vishnu"
+    }
+   
+}
+
+
+
+3- update data 
+
+reqBody = {
+    "action":"dataUpdate",
+    "data":{
+        "email":"vishnu1",
+        "name":"SHIV",
+        "id":6
+    }
+   
+}
